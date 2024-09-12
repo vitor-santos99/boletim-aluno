@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim do Aluno</title>
+    <link rel="stylesheet" href="layout/style.css">
+    <script src="java/app.js"></script>
+</head>
+<body>
+    <h1>Meu Boletim Escolar</h1> 
+    <br/>
+    <h2 id="conteudo"></h2>
+    <div class="container">
+        <div class="box">
+            <p>Insira a sua nota da 1ª avaliação</p>
+            <input type="number" id="cx1" class="cx1"><br/>
+        </div>
+        <div class="box">
+            <p>Insira a sua nota da 2ª avaliação</p>
+            <input type="number" id="cx2" class="cx2"><br/>
+        </div>
+        <div class="box">
+            <p>Insira a sua nota da 3ª avaliação</p>
+            <input type="number" id="cx3" class="cx3"><br/>
+        </div>
+    </div>
+    <br/>
+    <div class="frenq">
+        <p>Dentre as dez aulas do curso, quantas você participou ?</p>
+        <input type="number" id="cx4" class="cx4"><br/>
+    </div>
+    <br/>
+    <div id="botao">
+        <button onclick="notas()">Resultado</button>
+    </div>
+</body>
+</html>

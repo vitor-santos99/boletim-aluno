@@ -1,0 +1,47 @@
+
+
+h1{
+    text-align: center;
+
+}
+
+
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    
+    background-image: url(/img/escola.jpg);
+    background-size: cover;
+    color: rgba(2, 1, 0, 0.952);
+
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex; 
+    gap: 100px;
+    justify-content: center;
+    margin: 0;
+}
+
+.box {
+    height:fit-content;
+    text-align:left;
+    line-height: 2px;
+}
+
+.frenq{
+    height:fit-content;
+    text-align: center;
+    line-height: 2px;
+}   
+
+
+#botao{
+
+    display: flex;
+    justify-content: center;
+    
+}
